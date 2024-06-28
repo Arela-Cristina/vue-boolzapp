@@ -40,8 +40,34 @@ body {
 .directory div.bar-profile {
     width: 20vw;
     height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-left: 5px;
     /*debug*/
     border: 1px solid white;
+}
+
+.bar-profile div.user {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+
+}
+
+.bar-profile div.tools {
+    display: flex;
+    gap: 13px;
+    font-size: 13px;
+}
+
+img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+    object-fit: cover;
 }
 
 .directory div.bar-notify {
@@ -81,7 +107,7 @@ body {
     border: 1px solid white;
 }
 
-.inbox-container{
+.inbox-container {
     width: 60vw;
     height: 76vh;
     /*debug*/
