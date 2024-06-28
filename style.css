@@ -37,28 +37,28 @@ body {
     background-color: #e46bf9;
 }
 
-div.bar-profile {
+.directory div.bar-profile {
     width: 20vw;
     height: 7vh;
     /*debug*/
     border: 1px solid white;
 }
 
-div.bar-notify {
+.directory div.bar-notify {
     width: 20vw;
     height: 8vh;
     /*debug*/
     border: 1px solid white;
 }
 
-div.bar-search {
+.directory div.bar-search {
     width: 20vw;
     height: 5vh;
     /*debug*/
     border: 1px solid white;
 }
 
-div.bar-contacts {
+.directory div.bar-contacts {
     width: 20vw;
     height: 75vh;
     /*debug*/
