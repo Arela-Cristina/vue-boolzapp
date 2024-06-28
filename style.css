@@ -19,9 +19,17 @@ body {
 }
 
 /* font size */
-
 .fs-12 {
     font-size: 12px;
+}
+
+/*gap*/
+.g-8 {
+    gap: 8px;
+}
+
+.g-15 {
+    gap: 15px;
 }
 
 .bar {
@@ -74,8 +82,8 @@ body {
 }
 
 img {
-    width: 32px;
-    height: 32px;
+    width: 40px;
+    height: 40px;
     border-radius: 50px;
     object-fit: cover;
 }
@@ -160,6 +168,10 @@ input#site-search {
 .inbox-contact {
     width: 100%;
     height: 9.4%;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
     /*debug*/
     border: 1px solid white;
 }
