@@ -41,7 +41,6 @@ div.bar-profile {
     width: 20vw;
     height: 7vh;
     /*debug*/
-
     border: 1px solid white;
 }
 
@@ -49,7 +48,6 @@ div.bar-notify {
     width: 20vw;
     height: 8vh;
     /*debug*/
-
     border: 1px solid white;
 }
 
@@ -57,7 +55,6 @@ div.bar-search {
     width: 20vw;
     height: 5vh;
     /*debug*/
-
     border: 1px solid white;
 }
 
@@ -65,13 +62,35 @@ div.bar-contacts {
     width: 20vw;
     height: 75vh;
     /*debug*/
-
     border: 1px solid white;
 }
 
 .inbox {
     width: 60vw;
     height: 90vh;
+    display: flex;
+    flex-direction: column;
     /*debug*/
     background-color: #68dfb1;
+}
+
+.inbox-contact {
+    width: 60vw;
+    height: 6.6vh;
+    /*debug*/
+    border: 1px solid white;
+}
+
+.inbox-container{
+    width: 60vw;
+    height: 76vh;
+    /*debug*/
+    border: 1px solid white;
+}
+
+.inbox-input {
+    width: 60vw;
+    height: 7.6vh;
+    /*debug*/
+    border: 1px solid white;
 }
