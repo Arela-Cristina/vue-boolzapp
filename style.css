@@ -179,6 +179,8 @@ input#site-search {
 .inbox-container {
     width: 100%;
     height: 76vh;
+    background-image: url(img/wallpaper-wsp.webp);
+    background-size: contain;
     /*debug*/
     border: 1px solid white;
 }
@@ -186,6 +188,16 @@ input#site-search {
 .inbox-input {
     width: 100%;
     height: 7.6vh;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
     /*debug*/
     border: 1px solid white;
+}
+
+input#text {
+    width: 82%;
+    height: 65%;
+    border: none;
+    border-radius: 2px;
 }
