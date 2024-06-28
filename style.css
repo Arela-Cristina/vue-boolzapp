@@ -20,3 +20,24 @@ body {
     /*debug*/
     background-color: #f9ab1ca8;
 }
+
+#main {
+    display: flex;
+    position: absolute;
+    top: 30px;
+    left: 135px;
+}
+
+.directory {
+    width: 20vw;
+    height: 90vh;
+    /*debug*/
+    background-color: #e46bf9;
+}
+
+.inbox {
+    width: 60vw;
+    height: 90vh;
+    /*debug*/
+    background-color: #68dfb1;
+}
