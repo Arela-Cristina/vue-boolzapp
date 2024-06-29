@@ -52,12 +52,12 @@
                     </div>
                 </div>
                 <!-- box contact -->
-                <div class="bar-contacts">
+                <div  class="bar-contacts">
                     <!-- box contact -->
-                    <div class="bar-contacts-box flex">
-                        <img src="img/inozuke.JPG" alt="user profile picture">
+                    <div  v-for="(contact, index) in contacts" :key="index" class="bar-contacts-box flex">
+                        <img  :src="contact.avatar" alt="user profile picture">
                         <div>
-                            <span class="fs-12">Inosuke</span><br>
+                            <span class="fs-12">{{contact.name}}</span><br>
                             <span class="fs-12">ultimo messagio inviato</span>
                             <span class="hour-contact">12:00</span>
                         </div>
