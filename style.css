@@ -45,7 +45,7 @@ body {
 }
 
 .directory {
-    width: 25vw;
+    width: 26vw;
     height: 90vh;
     display: flex;
     flex-direction: column;
@@ -128,6 +128,7 @@ input#site-search {
 .directory div.bar-contacts {
     width: 100%;
     height: 75vh;
+    overflow-y: scroll;
     background-color: #ffffff;
 }
 
