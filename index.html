@@ -54,7 +54,7 @@
                 <!-- box contact -->
                 <div  class="bar-contacts">
                     <!-- box contact -->
-                    <div  v-for="(contact, index) in contacts" :key="index" class="bar-contacts-box flex">
+                    <div  v-for="(contact, index) in contacts" :key="index" @click="activeInboxContact(index)" class="bar-contacts-box flex">
                         <img  :src="contact.avatar" alt="user profile picture">
                         <div>
                             <span class="fs-12">{{contact.name}}</span><br>
@@ -70,11 +70,11 @@
             <section class="inbox">
                 <!-- box inbox contact -->
                 <div class="inbox-contact flex">
-                    <div class="flex g-8">
-                        <img src="img/inozuke.JPG" alt="user profile picture">
-                        <div>
-                            <span class="fs-12">Inosuke</span><br>
-                            <span class="fs-12">ultimo messagio inviato</span>
+                    <div  id="inboxContact" class="flex g-8">
+                        <img :src="active.avatar" alt="user profile picture">
+                        <div>  
+                            <span class="fs-12">{{active.name}}</span><br>
+                            <span class="fs-12">ultimo acceso oggi alle</span>
                             <span class="inbox-hour-contact fs-12">&nbsp;12:00</span>
                         </div>
                     </div>
@@ -88,11 +88,11 @@
                 <div class="inbox-container">
                     <div class="bubble">
                         <div class="bubble-message">
-                            <div class="bubble-user bubble-style">Hey!</div>
+                            <div class="bubble-user bubble-style">hey</div>
                             <span class="send-user-hour">15:00</span>
                         </div>
                         <div class="bubble-message">
-                            <div class="bubble-answer bubble-style">Ciao Bro</div>
+                            <div class="bubble-answer bubble-style">hey</div>
                             <span class="send-answer-hour">15:30</span>
                         </div>
                     </div>
