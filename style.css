@@ -69,7 +69,6 @@ body {
     align-items: center;
     gap: 6px;
     font-size: 14px;
-
 }
 
 .bar-profile div.tools {
@@ -175,6 +174,47 @@ input#site-search {
     height: 76vh;
     background-image: url(img/wallpaper-wsp.webp);
     background-size: contain;
+    display: flex;
+    justify-content: center;
+}
+
+.bubble {
+    margin: 10px 10px;
+    width: 80%;
+}
+
+.bubble-style {
+    width: 30%;
+    padding: 10px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.bubble-message {
+    position: relative;
+}
+
+.bubble-user {
+    background-color: #d5f9ba;
+    margin-left: 70%;
+}
+
+.send-user-hour {
+    position: absolute;
+    left: 35.5rem;
+    top: 1rem;
+    font-size: 10px;
+}
+
+.bubble-answer {
+    background-color: #ffffff;
+}
+
+.send-answer-hour {
+    position: absolute;
+    top: 1rem;
+    left: 9.2rem;
+    font-size: 10px;
 }
 
 .inbox-input {
