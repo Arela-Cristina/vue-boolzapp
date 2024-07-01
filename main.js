@@ -188,10 +188,9 @@ createApp({
     },
     methods: {
         activeInboxContact(index) {
-            console.log('inoske inoske inoske');
-            // debo hacer que haciendo click en contact sea igual a active=0 oppure 1 oppure 2 oppure 3
+            console.log('hey');
+            //click en contact igual a active=0 oppure 1 oppure 2 oppure 3
             this.active = this.contacts[index];
-           
         }
 
 
