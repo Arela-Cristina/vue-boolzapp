@@ -87,8 +87,8 @@
                 <!-- box messaggi -->
                 <div class="inbox-container">
                     <div class="bubble">
-                        <div class="bubble-message">
-                            <div class="bubble-user bubble-style">hey</div>
+                        <div  v-for="(message, index) in contact[0].messages" class="bubble-message">
+                            <div class="bubble-user bubble-style">{{message}}</div>
                             <span class="send-user-hour">15:00</span>
                         </div>
                         <div class="bubble-message">
